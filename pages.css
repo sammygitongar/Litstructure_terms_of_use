@@ -7,6 +7,7 @@
     width: 90vw;
     padding: 4vw;
     background: #d6d6d6;
+    min-height: 100vh;
 }
 
 .content{
@@ -31,7 +32,6 @@
 }
 
 .title span{
-    padding-left: 20px;
     font-style: italic;
 }
 
@@ -51,6 +51,22 @@
     padding: 10px 0;
 }
 
+.sub-contents ol li p{
+    padding-left: 30px;
+}
+
+.policy-list{
+    margin-left: calc(20px + 2vw);
+}
+
+.policy-list ol{
+    list-style-type:circle;
+}
+
+.policy-list ol li span{
+    font-style: italic;
+}
+
 .sub-contents ol li h2{
     padding-bottom: 10px;
 }
@@ -58,6 +74,10 @@
 .sub-contents ol ul{
     list-style: none;
     padding-left: 10vw;
+}
+
+#special-list{
+    list-style: disc;
 }
 
 .sub-contents ol ul span{
